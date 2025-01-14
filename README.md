@@ -1,84 +1,71 @@
-# Repo-Booster: AI SEO Chatbot and Marketing Assistant 🚀
+<div align="center">
 
-Repo-Booster is an intelligent AI-powered SEO chatbot designed to streamline your digital marketing efforts. It analyzes competitors, integrates with your marketing tools, tracks trends, and automates SEO tasks to help you dominate search rankings and optimize your online presence.
+# Repo-Booster Landing Page
+
+<div align="center">
+
+![Landing](https://github.com/user-attachments/assets/9eccaa4d-b283-4e69-bfa4-f889cfe2d0bd)
+---
+  <a href="https://app.repo-booster.com">
+    <img src="https://img.shields.io/badge/Website-Repo%20Booster-18181B?style=flat&logo=google-chrome&logoColor=28CF8D&colorB=28CF8D" alt="Website">
+  </a>
+
+  <a href="https://docs.repo-booster.com">
+    <img src="https://img.shields.io/badge/Docs-Repo%20Booster-18181B?style=flat&logo=readthedocs&logoColor=28CF8D&colorB=28CF8D" alt="Docs">
+  </a>
+
+  <a href="https://status.repo-booster.com">
+    <img src="https://img.shields.io/badge/Status-Repo%20Booster-18181B?style=flat&logo=check-mark&logoColor=28CF8D&colorB=28CF8D" alt="Status">
+  </a>
+</div>
+
+</div>
 
 ---
 
-## Table of Contents
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
+## 🚀 Features
+
+- **Dashboard**: Comprehensive overview of your website's SEO performance.
+- **Domain Overview**: Detailed analysis of domain traffic, metrics, and comparisons.
+- **Traffic Analytics**: Insights into traffic patterns and user engagement.
+- **Keyword Research**: Advanced tools to find high-performing keywords.
+- **On-Page SEO**: Optimize pages with actionable recommendations.
+- **Backlink Tools**: Analyze and improve your backlink profile.
+- **AI Tools**: Utilize AI for data collection, competitive analysis, keyword forecasting, and more.
+- **Site Audit**: Identify and fix technical SEO issues.
+- **API Integration** Google Search Console, OpenAI
 
 ---
 
-## Features
-### 🚀 **Core Capabilities**
-- **Competitor Analysis**: AI-driven competitor identification and analytics.
-- **SEO Automation**: Automates both on-page and off-page SEO tasks.
-- **Data Integration**: Pulls real-time data from Google Analytics, Search Console, and other tools.
-- **Trend Tracking**: Monitors and reports the latest marketing trends in your niche.
-- **Code Suggestions**: Generates optimized code snippets for meta tags, schema, and structured data.
+## 🛠️ Technologies Used
 
-### 🔧 **Additional Highlights**
-- Interactive chatbot interface for real-time insights.
-- Built-in analytics dashboard for reporting.
-- Customizable settings for specific business needs.
+- **Vue 3**: Composition API for building the front end.
+- **Nuxt 3**: Server-side rendering and static site generation.
+- **Tailwind CSS**: Modern, utility-first CSS framework for styling.
+- **Heroicons**: Scalable vector icons for consistent UI elements.
+- **Sitemap & SEO**: Dynamic sitemap generation and SEO optimization.
+- **MUCH MUCH MORE** 
 
 ---
 
-## How It Works
-1. **User Input**: The chatbot collects your requirements and marketing goals.
-2. **Data Processing**: Uses AI to analyze competitor data and integrates with your tools.
-3. **Output Delivery**: Provides actionable insights, trend analysis, and auto-generated SEO code.
+## 🔧 Installation
 
----
-
-## Technologies Used
-- **Frontend**: React, TailwindCSS
-- **Backend**: Node.js, Express
-- **AI Engine**: OpenAI GPT model
-- **Database**: MongoDB
-- **Deployment**: Vercel, Docker
-
----
-
-## Getting Started
-
-### Prerequisites
-- Node.js >= 14.x
-- npm or yarn
-- MongoDB instance
-- API keys for integration (e.g., Google Search Console)
-
-### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/repo-booster.git
+   git clone https://github.com/repo-booster/repo-booster-seo.git
+   ```
+2. Navigate into the project directory:
+   ```bash
    cd repo-booster
    ```
-
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
-
-3. Set up environment variables:
-   Create a `.env` file in the root directory and add the required API keys:
-   ```env
-   GOOGLE_API_KEY=your_key
-   MONGO_URI=your_mongodb_uri
-   ```
-
-4. Run the application:
+4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
-
 5. Open the app in your browser:
    ```
    http://localhost:3000
@@ -86,52 +73,43 @@ Repo-Booster is an intelligent AI-powered SEO chatbot designed to streamline you
 
 ---
 
-## Screenshots
-### Landing Page
-![Landing Page](https://your-image-url.com/landing-page.png)
+## ⚙️ Configuration
 
-### Chatbot Interface
-![Chatbot](https://your-image-url.com/chatbot.png)
+### Sitemap
+The dynamic sitemap is generated using the `sitemap` package and includes all routes from the project.
 
-### Analytics Dashboard
-![Dashboard](https://your-image-url.com/dashboard.png)
+To update the sitemap, modify `routes/sitemap.xml.ts`:
+```typescript
+import { SitemapStream, streamToPromise } from 'sitemap';
+```
 
----
+### SEO Middleware
+SEO metadata is managed in `plugins/seo.ts` with route-based meta tags.
 
-## Demo
-Check out the live version: [Repo-Booster Demo](https://your-demo-link.com)
-
----
-
-## Contributing
-We welcome contributions! To get started:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request.
+To add or update metadata:
+```typescript
+{
+  '/new-route': {
+    title: 'New Route Title',
+    description: 'Description for the new route.'
+  }
+}
+```
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Acknowledgments
-- Inspired by modern digital marketing challenges.
-- Powered by [OpenAI GPT](https://openai.com) for natural language processing.
+## 📧 Contact
+
+For support, feedback, or inquiries, please reach out to us:
+- Email: support@repo-booster.com
+- Website: [Repo-Booster](https://app.repo-booster.com)
 
 ---
 
-## Connect with Me
-Follow me for more projects:
-- [GitHub Profile](https://github.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Twitter](https://twitter.com/yourhandle)
-
----
-
-### ⭐ If you find this project helpful, please give it a star on GitHub! ⭐
-
-Let me know if you'd like further refinements or additional sections!
+Let me know if you need further adjustments or additions! 😊
