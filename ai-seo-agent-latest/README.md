@@ -1,69 +1,128 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f91e7b23-7d31-4474-9687-690bfea576c5" alt="SEO-AGENT" />
+</p>
 
-## Project info
 
-**URL**: https://lovable.dev/projects/e0f0ff16-4e00-4a5a-83a0-0cc1cca4a61c
+<p align="center">
+  <a href="https://app.repo-booster.com">
+    <img src="https://img.shields.io/badge/Website-Repo%20Booster-18181B?style=flat&logo=google-chrome&logoColor=28CF8D&colorB=28CF8D" alt="Website">
+  </a>
+  <a href="https://docs.repo-booster.com">
+    <img src="https://img.shields.io/badge/Docs-Repo%20Booster-18181B?style=flat&logo=readthedocs&logoColor=28CF8D&colorB=28CF8D" alt="Docs">
+  </a>
+  <a href="https://api.repo-booster.com">
+    <img src="https://img.shields.io/badge/API-Repo%20Booster-18181B?style=flat&logo=api&logoColor=28CF8D&colorB=28CF8D" alt="API">
+  </a>
+  <a href="https://status.repo-booster.com">
+    <img src="https://img.shields.io/badge/Status-Repo%20Booster-18181B?style=flat&logo=check-mark&logoColor=28CF8D&colorB=28CF8D" alt="Status">
+  </a>
+</p>
 
-## How can I edit this code?
+## Project Links:
 
-There are several ways of editing your application.
+- **Repo-Booster Website**: [https://repo-booster.com](https://repo-booster.com)  
+- **ChatBot UI**: [https://ai-seo-agent.vercel.app](https://ai-seo-agent.vercel.app)  
+- **SEO Platform**: [https://app.repo-booster.com](https://app.repo-booster.com)  
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e0f0ff16-4e00-4a5a-83a0-0cc1cca4a61c) and start prompting.
+- **Dashboard**: Comprehensive overview of your website's SEO performance.
+- **Domain Overview**: Detailed analysis of domain traffic, metrics, and comparisons.
+- **Traffic Analytics**: Insights into traffic patterns and user engagement.
+- **Keyword Research**: Advanced tools to find high-performing keywords.
+- **On-Page SEO**: Optimize pages with actionable recommendations.
+- **Backlink Tools**: Analyze and improve your backlink profile.
+- **AI Tools**: Utilize AI for data collection, competitive analysis, keyword forecasting, and more.
+- **Site Audit**: Identify and fix technical SEO issues.
+- **API Integration** Google Search Console, OpenAI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Repo-Booster (Main Branch)
+- **Vue 3**: Composition API for building the front end.
+- **Nuxt UI PRO**: Server-side rendering and static site generation.
+- **Tailwind CSS**: Modern, utility-first CSS framework for styling.
+- **Heroicons**: Scalable vector icons for consistent UI elements.
+- **Sitemap & SEO**: Dynamic sitemap generation and SEO optimization.
+- **MUCH MUCH MORE**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## SEO Agent (Master Branch)
+- **Next.JS**
+- **Typescript**
+- **Tailwind CSS**: Modern, utility-first CSS framework for styling.
+- **TogetherAI**
+- **OPRNAI**
+- **React**
+- **Redux**
+- **MUCH MUCH MORE**
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🔧 Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Gerome-Elassaad/ai-seo-agent-latest.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd repo-booster
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open the app in your browser:
+   ```
+   http://localhost:3000
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## ⚙️ Configuration
+
+### Sitemap
+The dynamic sitemap is generated using the `sitemap` package and includes all routes from the project.
+
+To update the sitemap, modify `routes/sitemap.xml.ts`:
+```typescript
+import { SitemapStream, streamToPromise } from 'sitemap';
 ```
 
-**Edit a file directly in GitHub**
+### SEO Middleware
+SEO metadata is managed in `plugins/seo.ts` with route-based meta tags.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+To add or update metadata:
+```typescript
+{
+  '/new-route': {
+    title: 'New Route Title',
+    description: 'Description for the new route.'
+  }
+}
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛡️ License
 
-## What technologies are used for this project?
+This project is licensed under the [MIT License](LICENSE).
 
-This project is built with .
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📧 Contact
 
-## How can I deploy this project?
+For support, feedback, or inquiries, please reach out to us:
+- Email: support@repo-booster.com
+- Website: [Repo-Booster](https://app.repo-booster.com)
 
-Simply open [Lovable](https://lovable.dev/projects/e0f0ff16-4e00-4a5a-83a0-0cc1cca4a61c) and click on Share -> Publish.
+---
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Let me know if you need further adjustments or additions! 😊
