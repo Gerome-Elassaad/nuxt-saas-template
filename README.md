@@ -40,7 +40,7 @@
 
 ## 🛠️ Technologies Used
 
-## Repo-Booster 
+## Repo-Booster (Main Branch)
 - **Vue 3**: Composition API for building the front end.
 - **Nuxt UI PRO**: Server-side rendering and static site generation.
 - **Tailwind CSS**: Modern, utility-first CSS framework for styling.
@@ -48,7 +48,7 @@
 - **Sitemap & SEO**: Dynamic sitemap generation and SEO optimization.
 - **MUCH MUCH MORE**
 
-## SEO Agent
+## SEO Agent (Master Branch)
 - **Next.JS**
 - **Typescript**
 - **Tailwind CSS**: Modern, utility-first CSS framework for styling.
@@ -64,7 +64,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/repo-booster/repo-booster-seo.git
+   git clone https://github.com/Gerome-Elassaad/ai-seo-agent-latest.git
    ```
 2. Navigate into the project directory:
    ```bash
