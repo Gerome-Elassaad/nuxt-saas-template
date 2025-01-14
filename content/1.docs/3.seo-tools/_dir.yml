@@ -1,0 +1,16 @@
+title: SEO Tools
+items:
+  - name: Domain Overview
+    path: domain-overview
+  - name: Keyword Research
+    path: keyword-research
+  - name: Competitor Analysis
+    path: competitor-analysis
+  - name: Content Marketing
+    path: content-marketing
+  - name: On-Page SEO
+    path: on-page-seo
+  - name: Rank Tracking
+    path: rank-tracking
+  - name: Local SEO
+    path: local-seo

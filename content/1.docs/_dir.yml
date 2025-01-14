@@ -1,0 +1,14 @@
+title: Documentation
+navigation:
+  icon: i-heroicons-book-open
+items:
+  - name: Getting Started
+    path: 1.getting-started
+  - name: Features Overview
+    path: 2.features-overview
+  - name: SEO Tools
+    path: 3.seo-tools
+  - name: Analytics
+    path: 4.analytics
+  - name: AI Features
+    path: 5.ai-features

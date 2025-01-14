@@ -1,0 +1,32 @@
+title: Blog
+description: "Stay updated with the latest news, insights, and updates on Repo-Booster."
+navigation:
+  icon: i-heroicons-newspaper
+metadata:
+  author: "Repo-Booster Team"
+  keywords: 
+    - "GitHub"
+    - "SEO"
+    - "analytics"
+    - "repository growth"
+    - "seo-trends"
+    - "success stories"
+    - "GitLab"
+    - "AI"
+  language: "en"
+  robots: "index, follow"
+  og:
+    title: "Repo-Booster Blog"
+    description: "Explore expert insights, news, and guides to boost your GitHub projects."
+    image: "https://repo-booster.com/social-card.png"
+    url: "https://repo-booster.com/blog"
+  twitter:
+    card: "summary_large_image"
+    title: "Repo-Booster Blog"
+    description: "Stay updated with the latest on GitHub repository optimization."
+    image: "https://repo-booster.com/social-card.png"
+layout: "default"
+theme: "light"
+pagination:
+  enabled: true
+  per_page: 10

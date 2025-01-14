@@ -1,0 +1,175 @@
+title: Your Specialized AI Agent For Content, Marketing & Growth
+description: AI SEO chat bot Fully Automated, AI Integrated, Not Generated, crafted with care, innovation elevated
+keywords: [SEO tool, keyword tracking, search engine optimization, website ranking, competitor analysis, traffic growth, SEO platform, SEO analytics, SEM, site optimization, backlink checkers, seo chat bot, seo assistant, ai automation]
+navigation: {}
+hero:
+  title: Next Generation Seo Has Arrived
+  description: Fully Automated, AI Integrated, Not Generated, Crafted with care, innovation elevated
+  headline:
+    label: The Future of Seo
+    to: https://github.com/repo-booster
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: API Docs
+      to: https://docs.repo-booster.com
+      size: xl
+      color: black
+      icon: i-heroicons-arrow-top-right-on-square
+      trailing: true
+    - label: Get started for free
+      icon: i-heroicons-currency-dollar
+logos:
+  title: Trusted by the world's best
+  icons:
+    - i-simple-icons-amazonwebservices
+    - i-simple-icons-openai
+    - i-simple-icons-googlesearchconsole
+    - i-simple-icons-github
+    - i-simple-icons-digitalocean
+features:
+  headline: Features
+  title: Why choose our service?
+  description: Best AI Custom models No generic searches real data in real time.
+  items:
+    - title: Easy to use
+      description: Simple and effective UI with everything you need to dominate any industry.
+      icon: i-heroicons-check-badge
+    - title: Real AI-powered SEO Automations
+      description: Steer a winning SEO strategy while Repo-Booster seamlessly manages your tasks in the background,
+      icon: i-heroicons-bolt
+    - title: Premium Datasets
+      description: With us you get the real deal no third party dataset all our AI data is custom made by Repo-Booster.
+      icon: i-heroicons-lock-closed
+    - title: A plan for every need
+      description: Our plans are designed to empower individuals, small teams, and large organizations. Get the plan that suits your goals.
+    - title: Affordable
+      description: We offer premium AI tools for the best prices in this industry guaranteed.
+      icon: i-heroicons-currency-dollar
+    - title: SEO Optimizer
+      description: Analyze and optimize your repositories for better search rankings.
+      icon: i-heroicons-chart-bar
+    - title: A plan for every need
+      description: Our plans are designed to empower individuals, small teams, and large organizations. Get the plan that suits your goals.
+  align: center
+plans:
+  - title: Pro
+    description: Perfect for individuals starting with GitHub SEO.
+    price:
+      month: "$99.99"
+      year: "$85"
+    align: top
+    button:
+      label: "Free Plan"
+      color: white
+    features:
+      - "✓ 5 Projects"
+      - "✓ 500 Keywords Tracking"
+      - "✓ 10,000 Results Per Report"
+      - "✓ SEO, PPC, and research tools"
+      - "✓ Content Marketing Toolkit"
+      - "✓ AI-Powered Tools Access"
+  - title: Elite
+    description: Advanced features for growing repositories and small teams.
+    price:
+      month: "$129.99"
+      year: "$110"
+    highlight: true
+    align: top
+    button:
+      label: "Upgrade to Pro"
+      color: black
+    features:
+      - "✓ 15 Projects"
+      - "✓ 1,500 Keywords Tracker"
+      - "✓ 30,000 results per report"
+      - "✓ Historical data"
+      - "✓ Content Marketing Platform"
+      - "✓ AI-Powered Tools Access (unlimited)"
+  - title: Organisation
+    description: Full-featured plan for large organizations and teams.
+    price:
+      month: "$149.99"
+      year: "$124.99"
+    align: top
+    button:
+      label: "Subscribe"
+      color: white
+    features:
+      - "✓ 40 projects"
+      - "✓ 5000 Keyword"
+      - "✓ 50,000 results per report"
+      - "✓ White label reports"
+      - "✓ API Access"
+      - "✓ Share of Voice metrics"
+testimonials:
+  headline: Testimonials
+  title: What our customers are saying.
+  description: Real feedback from developers who have grown their projects using Repo-Booster.
+  items:
+    - quote: Repo-Booster helped my repository gain visibility and increased stars by 40% in just a month!
+      author:
+        name: Nathan Hammond
+        description: CEO at Aptitude Audits
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+          loading: lazy
+    - quote: The social media automation feature is a game-changer. It saves so much time!
+      author:
+        name: Emily Cook
+        description: Senior Full Stack Developer
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+          loading: lazy
+    - quote: The star growth tracker keeps me motivated and helps me set realistic goals for my project.
+      author:
+        name: Cameron Sheppard
+        description: Lead Developer at Data Lock Solutions
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+          loading: lazy
+    - quote: I never realized how much a proper README SEO could impact my project Repo-Booster showed me the way!
+      author:
+        name: Destinee Edwards
+        description: Senior Software Engineer
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+          loading: lazy
+    - quote: This tool is great especially the social media automation tools, I love the fact that it creates Seo based posts based on latest repo updates automatically without needing to tell it what the updats were.
+      author:
+        name: Kyle Mondane
+        description: Open Source Developer
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+          loading: lazy
+    - quote: I believe the team at Repo-Booster is on to something with this tool this is definetely going to help for future developers.
+      author:
+        name: Hayley Richardson
+        description: Junior Full Stack Developer
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+          loading: lazy
+cta:
+  title: Get started today
+  description: Never a better time to grow your projects audience then right now.
+  links:
+    - label: "Start Free Trial"
+      size: xl
+      color: black
+      to: "https://app.repo-booster.com"
+faq:
+  title: Frequently Asked Questions
+  description: Everything you need to know about Repo-Booster and its plans.
+  items:
+    - label: "Is this a secure service?"
+      content: Yes, Repo-Booster uses the latest security protocols to ensure your data remains safe and protected.
+      defaultOpen: true
+    - label: "How can I cancel my subscription?"
+      content: You can cancel your subscription anytime from your account settings.
+    - label: "How does the free trial work?"
+      content: The free plan provides you access to limited features without any commitment.
+    - label: "Can I switch plans later?"
+      content: Yes, you can upgrade or downgrade your plan at any time based on your needs.
+    - label: "Do you offer refunds?"
+      content: We offer refunds within 14 days for yearly subscriptions, subject to our refund policy.
+    - label: "Do you offer support?"
+      content: Yes, all plans include support, but Pro and Enterprise plans have access to 24/7 priority support.
