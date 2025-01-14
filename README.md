@@ -1,9 +1,3 @@
-<div align="center">
-
-# Repo-Booster Landing Page
-
-<div align="center">
-
 ![Landing](https://github.com/user-attachments/assets/9eccaa4d-b283-4e69-bfa4-f889cfe2d0bd)
 ---
   <a href="https://app.repo-booster.com">
