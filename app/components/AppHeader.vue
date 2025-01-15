@@ -33,7 +33,7 @@ const links = [{
       <UButton
         label="Get Access"
         color="gray"
-        to="https://app.repo-booster.com/seo-assistant"
+        to="https://app.repo-booster.com"
       />
     </template>
 
