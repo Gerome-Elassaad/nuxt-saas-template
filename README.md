@@ -17,6 +17,7 @@
   </a>
 </p>
 
+
 ## FULL WEBSITE TEMPLATE & APPLICATION TEMPLATE
 
 ---
@@ -61,21 +62,27 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Gerome-Elassaad/ai-seo-agent-latest.git
+   git clone https://github.com/Gerome-Elassaad/repo-booster-project
    ```
 2. Navigate into the project directory:
    ```bash
-   cd repo-booster
+   cd repo-booster-project
    ```
-3. Install dependencies:
+   or
+  ```bash
+  cd repo-booster-project
+  cd ai-seo-agent
+```
+4. Install dependencies:
+
    ```bash
    npm install
    ```
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
-5. Open the app in your browser:
+6. Open the app in your browser:
    ```
    http://localhost:3000
    ```
@@ -296,14 +303,6 @@
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📧 Contact
-
-For support, feedback, or inquiries, please reach out to us:
-- Email: support@repo-booster.com
-- Website: [Repo-Booster](https://app.repo-booster.com)
 
 ---
 
