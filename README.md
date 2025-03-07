@@ -18,7 +18,9 @@
 </p>
 
 
-## FULL WEBSITE TEMPLATE & APPLICATION TEMPLATE
+## FULL NUXT PRO SAAS WEBSITE TEMPLATE & NUXT 3 SEO PLATFORM TEMPLATE
+
+(MAIN BRANCH NUXT PRO TEMPLATE | MASTER BRANCH NUXT 3 SEO PLATFORM TEMPLATE)
 
 ---
 
@@ -47,7 +49,7 @@
 - **MUCH MUCH MORE**
 
 ## SEO Agent (Master Branch)
-- **Next.JS**
+- **Nuxt.JS**
 - **Typescript**
 - **Tailwind CSS**: Modern, utility-first CSS framework for styling.
 - **TogetherAI**
@@ -62,16 +64,15 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Gerome-Elassaad/repo-booster-project
+   git clone https://github.com/Gerome-Elassaad/nuxt-saas-template
    ```
 2. Navigate into the project directory:
    ```bash
-   cd repo-booster-project
+   cd nuxt-saas-template
    ```
    or
   ```bash
-  cd repo-booster-project
-  cd ai-seo-agent
+  cd nuxt-saas-template
 ```
 4. Install dependencies:
 
