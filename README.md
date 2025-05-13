@@ -49,7 +49,7 @@
 - **MUCH MUCH MORE**
 
 ## SEO Agent (Master Branch)
-- **Nuxt.JS**
+- **Vite Press**
 - **Typescript**
 - **Tailwind CSS**: Modern, utility-first CSS framework for styling.
 - **TogetherAI**
